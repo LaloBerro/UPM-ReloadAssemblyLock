@@ -2,7 +2,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityToolbarExtender;
 
-namespace DefaultNamespace
+namespace ReloadAssemblyLock.Core
 {
     [InitializeOnLoad]
     public static class ReloadAssemblyLockChanger
@@ -11,13 +11,11 @@ namespace DefaultNamespace
 
         static ReloadAssemblyLockChanger()
         {
-            ToolbarExtender.LeftToolbarGUI.Add(OnToolbarGUI);
+            ToolbarExtender.RightToolbarGUI.Add(OnToolbarGUI);
         }
 
         private static void OnToolbarGUI()
         {
-            //GUILayout.FlexibleSpace();
-
             if (!_isReloadAssemblyLocked)
                 Lock();
             else
