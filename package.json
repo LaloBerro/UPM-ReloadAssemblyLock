@@ -1,7 +1,7 @@
 {
-  "name": "com.tgl.reloadassemblylock",
+  "name": "com.lalo.reloadassemblylock",
   "version": "1.0.2",
-  "displayName": "TGL - Editor - ReloadAssemblyLock",
+  "displayName": "ReloadAssemblyLock",
   "unity": "2020.3",
   "unityRelease": "0b5",
   "documentationUrl": "",
@@ -9,7 +9,7 @@
   "licensesUrl": "",
   "keywords": [],
   "author": {
-    "name": "TGL",
+    "name": "Lalo",
     "email": "",
     "url": ""
   },
